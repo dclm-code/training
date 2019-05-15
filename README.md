@@ -1,4 +1,4 @@
-# training
+# Training
 This repos is setup for the purpose of the online going training program. The purpose of the repo is to have all our training code snippet and sample codes in one place that is easily accessible to everyone without the fear of anyone loosing the file and or it contents.
 # Areas of Concentration
 HTML  
