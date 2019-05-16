@@ -1,6 +1,5 @@
 .container {
     width: 80%;
-    border: 1px solid black;
     height: 700px;
     margin: 0 auto;
 }
@@ -36,3 +35,44 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
+
+#banner img {
+    width: 100%;
+}
+
+#content {
+    text-align: justify;
+    line-height: 150%;
+    background-image: url("../images/Deeper-Life-Logo.jpg");
+    background-repeat: no-repeat;
+}
+
+#dleft,
+#dright {
+    width: 48%;
+    text-align: justify;
+    line-height: 150%;
+}
+
+#dleft {
+    float: left;
+    padding-right: 5px;
+}
+
+#dright {
+    float: right;
+    padding-left: 5px;
+}
+
+.column {
+    clear: both;
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+}
+
+
+/*#banner {
+    width: 100%;
+    overflow: hidden;
+}*/
