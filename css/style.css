@@ -43,8 +43,6 @@ a {
 #content {
     text-align: justify;
     line-height: 150%;
-    background-image: url("../images/Deeper-Life-Logo.jpg");
-    background-repeat: no-repeat;
 }
 
 #dleft,
@@ -65,7 +63,6 @@ a {
 }
 
 .column {
-    clear: both;
     width: 32%;
     float: left;
     margin-left: 1%;
