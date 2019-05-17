@@ -1,0 +1,91 @@
+.data-table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+
+.data-table tbody tr> :first-child {
+    text-align: right;
+}
+
+.xls thead tr,
+.xls tbody tr> :first-child {
+    background: rgba(55, 119, 55, 0.75);
+}
+
+.xls thead tr {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 1px solid rgba(55, 119, 55, 0.9);
+    border-left: 1px solid rgba(55, 119, 55, 0.9);
+    padding: 0px;
+}
+
+.xls thead tr th {
+    border-right: 1px solid rgba(55, 119, 55, 0.9);
+    border-bottom: 1px solid rgba(55, 119, 55, 0.9);
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.xls tbody tr {
+    border-right: 1px solid rgba(55, 119, 55, 0.75);
+    border-bottom: 1px solid rgba(55, 119, 55, 0.75);
+}
+
+.xls tbody tr td {
+    border-top: 1px solid rgba(55, 119, 55, 0.75);
+    border-left: 1px solid rgba(55, 119, 55, 0.75);
+    padding: 2px;
+}
+
+.xls tfoot {}
+
+.table-border thead tr {
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #000000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 0px;
+}
+
+.table-border thead tr th {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.table-border tbody tr {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.table-border tbody tr td {
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 2px;
+}
+
+.stripped tbody tr:nth-child(even) {
+    background: gray;
+}
+
+.hoverable tbody tr:hover {
+    background: rgb(82, 59, 59);
+}
+
+.borderless {
+    border: none !important;
+}
+
+.search-box {
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
